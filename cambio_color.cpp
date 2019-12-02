@@ -31,8 +31,8 @@ void blue(string_view file,vector<unsigned char> image, unsigned int h,unsigned 
 
     for (size_t i = 0; i < h; i++) {
         for (size_t j = 0; j < w * 4; j += 4) {
-            image[i * w * 4 + j + 0] = 0; // Green component
-            image[i * w * 4 + j + 1] = 0; // Blue component
+            image[i * w * 4 + j + 0] = 0; // Red component
+            image[i * w * 4 + j + 1] = 0; // Green component
         }
         cout << endl;
     }

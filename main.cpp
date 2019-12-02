@@ -14,7 +14,7 @@ int main()
     auto* t1= new thread(red_t,"../red_filter.png");
     auto* t2= new thread(blue_t,"../blue_filter.png");
     auto* t3= new thread(green_t,"../green_filter.png");
-    //auto* t4= new thread(rotar,"../rotated.png");
+    //auto* t4= new thread(rot_t,"../rotated.png");
 
     t1->join();
     t2->join();

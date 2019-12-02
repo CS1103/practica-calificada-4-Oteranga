@@ -12,6 +12,7 @@
 #include "lodepng.h"
 #include "decode_encode.h"
 
-void rotar(string_view filename);
+void rotar(string_view filename,vector<unsigned char> image, unsigned int w, unsigned int h);
+void rot_t(string filename);
 
 #endif //PC4_ROTACION_H
