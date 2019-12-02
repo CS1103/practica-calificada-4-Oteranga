@@ -8,8 +8,10 @@
 #include <iostream>
 #include <string_view>
 #include <math.h>
+#include <thread>
 #include "lodepng.h"
+#include "decode_encode.h"
 
-
+void rotar(string_view filename);
 
 #endif //PC4_ROTACION_H
