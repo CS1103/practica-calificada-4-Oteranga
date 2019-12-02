@@ -1,6 +1,5 @@
 # pc4
 
-#
 Desarrollo de la pc4
 #
 Primero, me concentré en entender el código, especialmente cuál era la función de decoder y encoder.
@@ -11,3 +10,6 @@ Finalmente, investigué sobre cómo rotar la imagen y hallé que para rotarla de
 #
 Implementación de threads
 #
+Con respecto a los threads, no me quise complicar mucho e implementé threads en el main para llamar a cada función. Asimismo, me di cuenta que esa implementación era muy simple, entonces luego de investigar y ver algunos videos se me ocurrió implementar threads en las mismas funciones que desarrollaban las imágenes cambiadas. Para no complicarme mucho y entrenar mis conocimientos de threads, hice una función más por cada función que tenía con respecto a la variación de la imagen y en esta llamaba a la función principal, la cual hacía todos los calculos para que cambie la imagen.
+
+Fue un examen duro, pero considero que se logró el objetivo.
